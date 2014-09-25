@@ -18,7 +18,7 @@
 ![Создание проекта][createproject]
 
 3. У тебя создастся проект и автоматический откроется файл `Program.cs`. Этот файл будет содержать примерное такой код:
-```
+```cs
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -38,7 +38,7 @@
 Мы будем с тобой писать программу внутри функции `static void Main(string[] args)`.
 
 4. Внутри данной функции напиши следущий код и запусти программу.
-```
+```cs
     Console.Write("Введите первое число: ");
     string strA = Console.ReadLine();
     int a = int.Parse(strA);
