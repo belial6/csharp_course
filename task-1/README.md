@@ -5,7 +5,7 @@
 
 ### Цели первого задания
 
-* Установить [Visual Studio 2013 express](http://www.microsoft.com/en-us/download/details.aspx?id=43729),
+* Установить [Visual Studio 2012 express](http://www.microsoft.com/ru-ru/download/details.aspx?id=34673),
 * научиться рабоать с debug режимом vs,
 * сделать простую задачку на C#
 * познакомиться с Git и [GitHub](http://github.com/).
