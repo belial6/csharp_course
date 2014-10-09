@@ -1,0 +1,32 @@
+namespace lesson1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // int - целые числа, -2, -1, 0 , 1, 2, 3.
+            // (тип переменной) = (название переменной) (значение)
+            // = это присваивание. Записывание в ячейку нового значения.
+            // int a = 5;
+
+            //string - строка
+
+            string strA = Console.ReadLine();
+            int a = int.Parse(strA); // int.parse("123") - Преобразует строку(текст) в число
+
+            string strB = Console.ReadLine();
+            int b = int.Parse(strB);
+
+            int sum = a + b;
+            Console.WriteLine("{0} + {1} = {2}", a, b, sum);
+            int ras = a - b;
+            Console.WriteLine("{0} - {1} = {2}", a, b, ras);
+            int del = a / b;
+            Console.WriteLine("{0} / {1} = {2}", a, b, del);
+            int umn = a * b;
+            Console.WriteLine("{0} * {1} = {2}", a, b, umn);
+
+            Console.ReadKey();
+        }
+    }
+}
